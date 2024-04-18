@@ -123,3 +123,6 @@ span{
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
+  .card-img{
+    opacity: 0.5;
+  }
