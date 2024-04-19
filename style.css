@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family:rubik;
 }
 /* ------------------------Above-Navbar--------------------- */
 .above-navbar{
@@ -131,6 +132,14 @@ span{
     color: white;
     font-weight: 700;
     padding: 4vw;
+    
+  }
+  .btn-div{
+    width: 208px;
+    height: 65px;
+    border: 1px dashed #f9fcff;
+    margin-left: 43%;
+    border-radius: 5px;
   }
   .btn1{
     width: 190px;
@@ -139,4 +148,78 @@ span{
     font-size: 20px;
     background-color: #1d7ef2;
     color: white;
+    border: 0px ;
+    margin-top: 6px;
   }
+  /* ----------------section2--------------------- */
+  .sec2{
+    padding-left: 5%;
+  }
+  .text2{
+    font-size: 4vw;
+    color: #090f13;
+    font-weight: 700;
+    margin-top: 20%;
+  }
+  .icon2{
+    font-size: 30px;
+    margin-left: -0px;
+    margin-left: 14px;
+    margin-top: 12px;
+  }
+  .icon3{
+    font-size: 30px;
+    margin-left: -0px;
+    margin-left: 17px;
+    margin-top: 12px;
+    color: #1d7ef2;
+  }
+  .icon4{
+    font-size: 30px;
+    margin-left: -0px;
+    margin-left: 16px;
+    margin-top: 12px;
+    color: #1d7ef2;
+  }
+  .icon-div{
+    width: 80px;
+    height: 60px;
+    background-color: #8dbdf88f;
+    border-radius: 50%;
+  }
+  .icon-div2{
+    line-height: 20px;
+  }
+  .logo2{
+    width: 160px;
+    height: 160px;
+    animation : spin 5s linear infinite
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.second-col{
+  padding-top: 8vw;
+  padding-left: 12vw;
+  width: 400px;
+}
+
+.travel{
+  width: 80%;
+  height: 50%;
+  border-radius: 30px;
+  margin-top: -28vw;
+  margin-left: -18vw;
+}
+.travel2{
+  width: 100%;
+  height: 70%;
+  margin-right: 15vw;
+  margin-top: 8vw;
+  border-radius: 10px;
+}
