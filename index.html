@@ -12,7 +12,8 @@
   <body>
     <!-- --------container------------ -->
     <section>
-        <div class=" row above-navbar">
+      <div class="d-lg-block d-none">
+        <div class=" row above-navbar ">
             <div class="col-lg-4 above-col">
                 <div>
                     <i class="fa-brands ticket fa-telegram"></i>
@@ -33,6 +34,7 @@
                 <i class="fa-brands fa-facebook"></i>
             </div>
         </div>
+      </div>
         <!-- ----------Navbar-------------- -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -120,7 +122,8 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
         
-          <div class="swiper-slide"><div class="card ">
+          <div class="swiper-slide">
+            <div class="card ">
             <div class="bg-dark">
               <img src="./img/wp1.jpg" class="card-img" alt="...">
             </div>
@@ -212,17 +215,266 @@
           <img src="./img/Logo (2).png" class="logo2" alt="">
       
         </div>
-        <div class="col-lg-4 ">
+        <div class="col-lg-4 border-div">
+          <div class="travel-div"><img src="./img/travel1.jpg" class="travel2" alt=""></div>
           
-          <img src="./img/travel1.jpg" class="travel2" alt="">
           <img src="./img/travelpic.jpeg" class="travel" alt="">
         </div>
       </div>
       </section>
       <!-- -------------------------Ultimate Travel Experience------------------- -->
-      <section>
-          <div>
-            <p>Ultimate Travel Experience</p>
+      <section class="ultimate-sec">
+          <div class="text-center">
+            <p class="ultimate-text">Ultimate Travel Experience</p>
+            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,<br> at quisquam. Repudiandae nulla nam magnam unde dolorum labore et,<br> nihil fugit, omnis iure cum ea hic laboriosam sint voluptatum pariatur!</p>
+          </div>
+          <div style="margin-left: 4%;">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <i class="fa-solid fa-map-location-dot tabs"id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"> Tour Packages</i>
+              </li>
+              <li class="nav-item" role="presentation">
+                <i class="fa-solid fa-hotel tabs" id="profile-tab" data-bs-toggle="tab"
+                data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> Hotel</i>
+              </li>
+              <li class="nav-item" role="presentation">
+                <i class="fa-solid fa-car-side tabs" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> Transport</i>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <div class="d-flex">
+                <div class="card me-5" style="width:400px;height: 640px;">
+                <img src="./img/Saint Martin, Orient Bay.jpeg" class="card-img-top tabs-pic" alt="...">
+                <div class="card-img-overlay ">
+                  <button class="btn2">Popular</button>
+                  <div class="overlays">
+                    <div class="mt-3 d-flex">
+                      <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                      <p>1 week</p> 
+                    </div>
+                  <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                    <i class="fa-regular fa-flag mt-1 me-2"></i>
+                    <p>1 countries</p>
+                  </div>
+                </div>
+                </div>
+                <div class="card-body">
+                  <p style="font-size:24px;font-weight: 600;">Discover Serenity,Exploration,and Enlightenment.</p>
+                  <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                  <div class="d-flex">
+                    <div class="starting">
+                      <p class="text-secondary">Starting From:</p>
+                      <div class="d-flex"> 
+                        <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                        <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                      </div>
+                    </div>
+                    <div class="book-trip">
+                      <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card me-5" style="width:400px;height: 640px;">
+                <img src="./img/Debotakhum, Bandarban.jpeg" class="card-img-top tabs-pic" alt="...">
+                <div class="card-img-overlay ">
+                  <button class="btn2">Popular</button>
+                  <div class="overlays">
+                    <div class="mt-3 d-flex">
+                      <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                      <p>1 week</p> 
+                    </div>
+                  <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                    <i class="fa-regular fa-flag mt-1 me-2"></i>
+                    <p>1 countries</p>
+                  </div>
+                </div>
+                </div>
+                <div class="card-body">
+                  <p style="font-size:25px;font-weight: 600;">Embracing City Lights,Landm, And Iconic Culture.</p>
+                  <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                  <div class="d-flex">
+                    <div class="starting">
+                      <p class="text-secondary">Starting From:</p>
+                      <div class="d-flex"> 
+                        <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                        <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                      </div>
+                    </div>
+                    <div class="book-trip">
+                      <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card me-5" style="width:400px;height: 640px;">
+                <div class="img-div">
+                  <img src="./img/cox.jpeg" class="card-img-top tabs-pic" alt="...">
+                </div>
+                <div class="card-img-overlay ">
+                  <button class="btn2">Popular</button>
+                  <div class="overlays">
+                    <div class="mt-3 d-flex">
+                      <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                      <p>1 week</p> 
+                    </div>
+                  <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                    <i class="fa-regular fa-flag mt-1 me-2"></i>
+                    <p>1 countries</p>
+                  </div>
+                </div>
+                </div>
+                <div class="card-body">
+                  <p style="font-size:24px;font-weight: 600;">Immersive Cultural Expirees,Local Cuisine</p>
+                  <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                  <div class="d-flex">
+                    <div class="starting">
+                      <p class="text-secondary">Starting From:</p>
+                      <div class="d-flex"> 
+                        <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                        <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                      </div>
+                    </div>
+                    <div class="book-trip">
+                      <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="d-flex">
+                  <div class="card me-5" style="width:400px;height: 640px;">
+                  <img src="./img/h1.jpeg" class="card-img-top tabs-pic" alt="...">
+                  <div class="card-img-overlay ">
+                    <button class="btn2">Popular</button>
+                    <div class="overlays">
+                      <div class="mt-3 d-flex">
+                        <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                        <p>1 week</p> 
+                      </div>
+                    <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                      <i class="fa-regular fa-flag mt-1 me-2"></i>
+                      <p>1 countries</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size:24px;font-weight: 600;">Discover Serenity,Exploration,and Enlightenment.</p>
+                    <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                    <div class="d-flex">
+                      <div class="starting">
+                        <p class="text-secondary">Starting From:</p>
+                        <div class="d-flex"> 
+                          <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                          <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                        </div>
+                      </div>
+                      <div class="book-trip">
+                        <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card me-5" style="width:400px;height: 640px;">
+                  <img src="./img/h2.jpeg" class="card-img-top tabs-pic" alt="...">
+                  <div class="card-img-overlay ">
+                    <button class="btn2">Popular</button>
+                    <div class="overlays">
+                      <div class="mt-3 d-flex">
+                        <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                        <p>1 week</p> 
+                      </div>
+                    <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                      <i class="fa-regular fa-flag mt-1 me-2"></i>
+                      <p>1 countries</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size:25px;font-weight: 600;">Embracing City Lights,Landm, And Iconic Culture.</p>
+                    <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                    <div class="d-flex">
+                      <div class="starting">
+                        <p class="text-secondary">Starting From:</p>
+                        <div class="d-flex"> 
+                          <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                          <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                        </div>
+                      </div>
+                      <div class="book-trip">
+                        <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card me-5" style="width:400px;height: 640px;">
+                  <div class="img-div">
+                    <img src="./img/h3.jpeg" class="card-img-top tabs-pic" alt="...">
+                  </div>
+                  <div class="card-img-overlay ">
+                    <button class="btn2">Popular</button>
+                    <div class="overlays">
+                      <div class="mt-3 d-flex">
+                        <i class="fa-solid fa-calendar-day me-2 mt-1 ms-3"></i>
+                        <p>1 week</p> 
+                      </div>
+                    <div style="margin-left:28vh; display: flex; margin-top: 2vh;">
+                      <i class="fa-regular fa-flag mt-1 me-2"></i>
+                      <p>1 countries</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="card-body">
+                    <p style="font-size:24px;font-weight: 600;">Immersive Cultural Expirees,Local Cuisine</p>
+                    <p class="text-secondary text-uppercase mb-4" style="font-size: 12px;border-bottom:1px solid gray">Saint Martin <i class="fa-solid fa-arrow-right-long"></i> Khagrachori <i class="fa-solid fa-arrow-right-long"></i> Cox's bazar <i class="fa-solid fa-arrow-right-long"> </i> Bandarban</p>
+                    <div class="d-flex">
+                      <div class="starting">
+                        <p class="text-secondary">Starting From:</p>
+                        <div class="d-flex"> 
+                          <p class="fs-4 fw-bold" style="color: #1d7ef2;">$350</p>
+                          <p class="ms-2" style="text-decoration: line-through;">$360</p>
+                        </div>
+                      </div>
+                      <div class="book-trip">
+                        <p>Book A Trip <i class="fa-solid fa-arrow-right-long"></i></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="tab-pane fade " id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <div class="d-flex">
+                <div class="card me-5" style="width:380px">
+                  <img src="./img/wp4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card me-5"  style="width:380px">
+                  <img src="./img/wp4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card"  style="width:380px">
+                  <img src="./img/wp4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div> 
           </div>
       </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
