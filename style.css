@@ -295,3 +295,67 @@ span{
 .tabs{
   color: #1d7ef2;
 }
+.btn-div{
+  width: 208px;
+  height: 65px;
+  border: 1px dashed #0884ff;
+  margin-left: 40%;
+  border-radius: 5px;
+  margin-top:4vw;
+  padding-top: 1vh;
+  padding-left: 1vh;
+}
+.btn3{
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #1d7ef2;
+  color: white;
+  border: 0px ;
+}
+/* -----------------------Leading Tour Location----------------- */
+.tour-location{
+  padding-left: 5vw;
+  padding-top:10vw ;
+}
+.tour-btn{
+  width: 208px;
+  height: 65px;
+  border: 1px dashed #0884ff;
+  margin-left: 35vw;
+  border-radius: 5px;
+  margin-top:4vw;
+  padding-top: 1vh;
+  padding-left: 1vh;
+}
+.btn4{
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #1d7ef2;
+  color: white;
+  border: 0px ;
+
+}
+.text-tour{
+  font-size: 4vw;
+  font-weight: 700;
+}
+.tour-div{
+  height: 250px;
+  margin-top: 3vw;
+  width: 650px;
+  background-color:rgba(0, 0, 0, 0.644);
+}
+.tour-pic{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.pic-btn{
+  width: 80px;
+  height: 30px;
+  background-color: #60f21d;
+}
